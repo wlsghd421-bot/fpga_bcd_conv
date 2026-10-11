@@ -1,5 +1,5 @@
 {
-  "sources": ["src/design.v"],
-  "testbench": "sim/tb_design.v",
-  "simulation_top": "tb_design"
+    "sources": ["src/bcd_to_binary.v", "src/bcd_conv.v"],
+    "testbench": "sim/tb_bcd_conv.sv",
+    "simulation_top": "tb"
 }
